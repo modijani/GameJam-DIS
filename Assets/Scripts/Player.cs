@@ -52,7 +52,7 @@ public class Player : MonoBehaviour
     {
         if (col2d.collider.tag == "TrashCan")
         {
-            healthOfPlayer -= 50;
+            healthOfPlayer -= 10;
             Destroy(col2d.gameObject);
         }
 
