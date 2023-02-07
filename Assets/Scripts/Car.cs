@@ -28,6 +28,12 @@ public class Car : Obstacle
     {
         damage = 25;
     }
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag != "Player")
+        {
+            Physics2D.IgnoreCollision(collision.collider, collision.otherCollider);
+        }
+    }
 
 }
