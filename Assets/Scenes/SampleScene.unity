@@ -1118,6 +1118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2678307060775272510, guid: 6168fbc59f6354af885f2c15c54ba208, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6168fbc59f6354af885f2c15c54ba208, type: 3}
 --- !u!1001 &2678307060561198195

@@ -50,9 +50,10 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col2d)
     {
-        if (col2d.collider.tag == "TrashCan")
+        if (col2d.collider.tag == "Obstacle")
         {
-            healthOfPlayer -= 10;
+            healthOfPlayer -=
+                col2d.collider.gameObject.GetComponent<Obstacle>().damage;
             Destroy(col2d.gameObject);
         }
 
