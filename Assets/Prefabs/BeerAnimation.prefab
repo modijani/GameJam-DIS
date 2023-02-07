@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6154970997684872038}
   - component: {fileID: 3712147947401751453}
   - component: {fileID: 4249718076661059799}
+  - component: {fileID: -2281316442794289495}
   m_Layer: 0
   m_Name: BeerAnimation
   m_TagString: Beer
@@ -140,3 +141,15 @@ PolygonCollider2D:
       - {x: 0.76, y: 0.44}
       - {x: 0.76, y: 0.79999995}
       - {x: 0.68, y: 0.96}
+--- !u!114 &-2281316442794289495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5542807259380213470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b709cd020f5640c88254f4a27abe6c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
