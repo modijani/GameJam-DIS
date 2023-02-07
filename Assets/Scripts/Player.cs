@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public float verticalSpeed = 0.05f;
     public float horizontalSpeed = 0.5f;
     public float healthOfPlayer = 100;
+    public float drunkLevel = 0f;
 
     void Start()
     {
