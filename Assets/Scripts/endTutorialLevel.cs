@@ -9,7 +9,7 @@ public class endTutorialLevel : abstractEndLevel
     // Start is called before the first frame update
     protected override void Start()
     {
-        sceneName = "TutorialScene";
+        sceneNameToChangeInto = "Level 2";
     }
 
 }
