@@ -46,7 +46,7 @@ public class CameraController : MonoBehaviour
         
         if(player.GetComponent<Player>().drunkLevel > 0)
         { 
-            radius = player.GetComponent<Player>().drunkLevel * 0.25f;
+            radius = player.GetComponent<Player>().drunkLevel * 1.5f;
         }
         
 
