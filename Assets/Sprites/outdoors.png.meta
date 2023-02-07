@@ -377,7 +377,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -385,6 +385,27 @@ TextureImporter:
       bones: []
       spriteID: 4319a99668d124841b4823cbbb5be562
       internalID: -1908669260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoors_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 97
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2476d12b8c1664ec4abdd66801a7209a
+      internalID: 454499942
       vertices: []
       indices: 
       edges: []
@@ -403,6 +424,7 @@ TextureImporter:
       trashCan: 766722855
       barrier: -1829046761
       street: -1673953601
+      outdoors_0: 454499942
       trafficCone: 231149082
       cobble: -876331140
       treeRow: 1905048669

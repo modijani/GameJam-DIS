@@ -63,7 +63,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.9675527
+  orthographic size: 4.3349295
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -103,7 +103,7 @@ MonoBehaviour:
   player: {fileID: 0}
   blurShader: {fileID: 4800000, guid: 93c64840c49214c66ba1ecf06aa1604d, type: 3}
   blurMaterial: {fileID: 2100000, guid: cad782ddb7682124f9e38fa5d54d99ef, type: 2}
-  radius: 2.5
+  radius: 0
   qualityIterations: 1
   filter: 0
 --- !u!68 &4226082932816472471
