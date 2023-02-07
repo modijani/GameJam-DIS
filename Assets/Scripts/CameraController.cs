@@ -18,16 +18,6 @@ public class CameraController : MonoBehaviour
 
     public static bool doBlur = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-        Vector3 pos = transform.position;
-        pos.y = playerFollow.position.y;
-        transform.position = pos;
-
-
-    }
-
     [Tooltip("The Blur Shader attahed with this Asset.")]
     public Shader blurShader;
 
@@ -36,15 +26,33 @@ public class CameraController : MonoBehaviour
 
     [Tooltip("Strength of the Blur. Governs the Area of Pixels to Blend.")]
     [Range(0f, 10f)]
-    public float radius = 3.0f;
+    public float radius = 0f;
 
     [Tooltip("Iterations of Blur Calculation.")]
     [Range(1, 6)]
-    public int qualityIterations = 2;
+    public int qualityIterations = 1;
 
     [Tooltip("Improves quality and reduces sharp edges (Downsamples the Image).")]
     [Range(0, 3)]
-    public int filter = 1;
+    public int filter = 0;
+
+    // Update is called once per frame
+    void Update()
+    {
+        Vector3 pos = transform.position;
+        pos.y = playerFollow.position.y;
+        transform.position = pos;
+
+        
+        if(player.GetComponent<Player>().drunkLevel > 0)
+        { 
+            radius = player.GetComponent<Player>().drunkLevel * 0.25f;
+        }
+        
+
+    }
+
+
 
     void OnRenderImage(RenderTexture sourcert, RenderTexture destinationrt)
     {

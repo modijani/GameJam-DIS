@@ -7,6 +7,7 @@ TagManager:
   - TrashCan
   - Obstacle
   - EndLevel
+  - Beer
   layers:
   - Default
   - TransparentFX

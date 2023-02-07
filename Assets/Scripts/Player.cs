@@ -58,6 +58,12 @@ public class Player : MonoBehaviour
             Destroy(col2d.gameObject);
         }
 
+        if(col2d.collider.tag == "Beer")
+        {
+            drunkLevel += 1;
+            Destroy(col2d.gameObject);
+        }
+
     }
 
     private void checkIfDead()
