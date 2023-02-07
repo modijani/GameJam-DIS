@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public abstract class abstractEndLevel : MonoBehaviour
 {
     // Start is called before the first frame update
-    protected string sceneName;
+    protected string sceneNameToChangeInto;
 
     protected abstract void Start();
 
@@ -20,7 +20,7 @@ public abstract class abstractEndLevel : MonoBehaviour
     {
         if (col2d.collider.tag == "Player")
         {
-            SceneManager.LoadScene(sceneName);
+            SceneManager.LoadScene(sceneNameToChangeInto);
         }
 
     }
