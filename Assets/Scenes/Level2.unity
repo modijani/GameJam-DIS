@@ -291,11 +291,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 36504b0bf106d42fca335cebac81feb2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -744,6 +744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 4226082932816472426, guid: c26e9414fca3e48918417ed9c6b97280, type: 3}
+      propertyPath: orthographic size
+      value: 4.9199605
+      objectReference: {fileID: 0}
     - target: {fileID: 4226082932816472468, guid: c26e9414fca3e48918417ed9c6b97280, type: 3}
       propertyPath: player
       value: 
@@ -795,6 +799,22 @@ PrefabInstance:
     - target: {fileID: 4226082932816472469, guid: c26e9414fca3e48918417ed9c6b97280, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4226082932816472471, guid: c26e9414fca3e48918417ed9c6b97280, type: 3}
+      propertyPath: m_Points.Array.data[0].x
+      value: -8.3223295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4226082932816472471, guid: c26e9414fca3e48918417ed9c6b97280, type: 3}
+      propertyPath: m_Points.Array.data[0].y
+      value: 6.1715245
+      objectReference: {fileID: 0}
+    - target: {fileID: 4226082932816472471, guid: c26e9414fca3e48918417ed9c6b97280, type: 3}
+      propertyPath: m_Points.Array.data[1].x
+      value: -8.362185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4226082932816472471, guid: c26e9414fca3e48918417ed9c6b97280, type: 3}
+      propertyPath: m_Points.Array.data[1].y
+      value: -5.0257006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c26e9414fca3e48918417ed9c6b97280, type: 3}
